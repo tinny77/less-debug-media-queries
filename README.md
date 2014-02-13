@@ -7,7 +7,7 @@ Media query debug mixin for Less is a very simple LESS snippet you can use to qu
 usage
 ========================
 
-Just copy the mixing, then trigger it into your media queries like the example below:
+Just copy the mixin inside your main less file, then trigger it into your media queries like the example below:
 
 @media (min-width:800px){
 	.mediadebug(lighten(yellow, 40%),"tablet")
