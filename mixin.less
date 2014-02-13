@@ -1,0 +1,15 @@
+.mediadebug(@bgcolor,@label)
+{
+	body::after{
+		content: @label;
+		font-weight: bold;
+		display: block;
+		text-align: center;
+		background: @bgcolor;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+	}
+}
